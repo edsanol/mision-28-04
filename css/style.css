@@ -9,12 +9,6 @@ body {
     margin-top: 40px;
 }
 
-.icon::before {
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
-
 .container {
     background-color: #fff;
     width: 250px;
@@ -31,6 +25,10 @@ body {
 .box {
     margin-top: 2px;
     padding-top: 2px;
+}
+
+.box h2 {
+    font-weight: 700;
 }
 
 .inp input {
