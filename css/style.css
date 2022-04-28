@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+}
+
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.container {
+    background-color: #fff;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid #eee;
+}
+
+.inp, .box{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.box {
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+.inp input {
+    position: relative;
+    height: 33px;
+    width: 100%;
+    border-radius: 9px;
+    border: 2px solid #eee;
+    margin: 5px 0;
+}
+
+.inp button {
+    height: 33px;
+    width: 100%;
+    border-radius: 13px;
+    border: 1px solid #eee;
+    margin: 5px 0;
+    background-color: #3443eb;
+    color: #fff;
+}
